@@ -185,6 +185,7 @@ vector<double> X0_and_RM(vector<vector<double>> SimPts, vector<double> O, string
             X0 = l;
             cout << "Radiation lenght : " << X0 << " cm" << endl;
             test_X0 = false;
+            break;
         }
         l+=l_step;
     }
@@ -198,6 +199,7 @@ vector<double> X0_and_RM(vector<vector<double>> SimPts, vector<double> O, string
             RM = r;
             cout << "Molière Radius : " << RM << " cm" << endl;
             test_RM = false;
+            break;
         }
         r+=r_step;
     }
