@@ -1,4 +1,4 @@
-# CE CODE EST EN LANGAGE PYTHON #
+### CE CODE EST EN LANGAGE PYTHON ###
 
 import numpy as np
 import matplotlib.pyplot as plt
