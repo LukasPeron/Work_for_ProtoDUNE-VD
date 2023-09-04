@@ -1,4 +1,4 @@
-### CE CODE EST EN LANGAGE PYTHON ###
+# CE CODE EST EN LANGAGE PYTHON #
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -13,7 +13,6 @@ E_e = 1e9*np.array([1, 2, 3, 4, 5]) # eV
 Z = 18
 m = 6.62e-26 #kg
 p = 1.44e3 #kg/m^3
-V = 6**3 #m^3
 
 sigma_lst=[]
 E_gamma_lst = []
